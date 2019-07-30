@@ -54,6 +54,10 @@ class Mfem(Package):
             preferred=True)
 
     # Tagged development version used by the laghos package:
+    version('3.4-commit-402a348',
+            commit='402a348f9ab566d2bb5409fa212e55c951bdd779')
+    
+    # Tagged development version used by the laghos package:
     version('3.4.1-laghos-v2.0', tag='laghos-v2.0')
 
     version('3.4.0',
